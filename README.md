@@ -25,7 +25,7 @@ A Room-based Chat website. It includes public rooms where different people can c
 <br />
 This project was developed for a college assignment.
 <br />
-The official documentation: [View Docs]()
+The official documentation: [View Docs](/rbca18208-Mini-Project-Documentation.pdf)
 
 <img src="images/Screenshot-room.jpg" alt="Screenshot-room">
 
