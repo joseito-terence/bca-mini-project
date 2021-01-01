@@ -1,0 +1,49 @@
+.message{
+  position: relative;
+  max-width: 500px;
+  font-size: 15px;
+  padding: 10px;
+  width: fit-content;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  background-color: #1e544f; 
+  transition: transform .45s;
+}
+
+.message__sender {
+  margin-left: auto;
+  background-color: #2b7870;
+}
+
+.message__name {
+  position: absolute;
+  top: -16px;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.message__timestamp {
+  margin-left: 10px;
+  font-size: 10px;
+}
+
+.message__deleteBtn{
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 5px;
+  margin-left: 5px;
+  cursor: pointer;
+  font-size: 16px;
+
+  display: none;
+}
+
+.message:hover{
+  transform: scale(1.05);
+}
+
+.message:hover > .message__deleteBtn{
+  display: inline-block;
+}
+

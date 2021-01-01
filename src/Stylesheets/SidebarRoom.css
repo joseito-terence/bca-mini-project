@@ -1,0 +1,39 @@
+.sidebarRoom {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  cursor: pointer;
+  border-bottom: 1px solid #12302d;
+}
+
+a {
+  text-decoration: none;
+}
+
+.sidebarRoom:hover, .sidebarRoom-active {
+  background-color: #1a3936;
+}
+
+.sidebarRoom__info > h2 {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.sidebarRoom__info > p {
+  font-size: 14px;
+}
+
+.sidebarRoom__info {
+  margin-left: 15px;
+}
+
+.sidebarRoom__avatar {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  line-height: 37px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+}
+

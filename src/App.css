@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  font-family: 'Segoe UI', sans-serif;
+  color: white;
+}
+
+.IconButton{
+  border-radius: 50%;
+  padding: 8px;
+  cursor: pointer;
+  height: 25px;
+  width: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.IconButton:hover{
+  background-color: #1a3936;
+}
+
+@media only screen and (min-width: 768px) {      /* For screens with width greater than 768px */
+  .app__body { display: flex; }                   
+  .sidebar { max-width: 400px; }
+  .chat { flex-grow: 1; }
+  .chat__backBtn{ display: none; }
+}
+
+
+/* CUSTOM STYLE SHEET FOR THE SCROLLBAR */
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: grey; 
+  border-radius: 10px;
+}
