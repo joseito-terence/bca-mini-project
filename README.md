@@ -9,7 +9,7 @@
     Developed By: <strong>Joseito Fernandes</strong>
     <br />
     <br />
-    <a href="https://myexpenses2.web.app/">Live Demo</a>
+    <a href="https://bca-mini-project.web.app/">Live Demo</a>
     .
     <a href="/rbca18208-Mini-Project-Documentation.pdf">View Official Docs</a>
 
